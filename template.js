@@ -1,0 +1,19 @@
+export default ()=>{
+  return `<!doctype html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <title>MERN Skeleton</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+          <style>
+              a{text-decoration: none;}
+          </style>
+        </head>
+        <body style="margin:0;background-image: url('http://portobsb.adminbsb-themes.com/assets/images/main_bg.jpg');background-size: cover;">
+          <div id="root"></div>
+          <style id="jss-server-side"></style>
+          <script type="text/javascript" src="/dist/bundle.js"></script>
+        </body>
+      </html>`
+}
